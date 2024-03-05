@@ -49,8 +49,8 @@ main {
   margin-top: 60px;
 }
 .weather-app-city {
-  font-size: 120px;
-  font-weight: bold;
+  font-size: 70px;
+  font-weight: bolder;
   color: #a92f73;
   margin: 0;
   line-height: 48px;

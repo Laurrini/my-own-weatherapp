@@ -10,18 +10,20 @@
       href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/index.css" />
   </head>
   <body>
     <div class="app">
       <h1>Weather app</h1>
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city ..."
             required
             class="search-form-input"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
         </form>
@@ -29,7 +31,7 @@
       <main>
         <div>
           <div class="weather-app-data">
-            <h1 class="weather-app-city">Paris</h1>
+            <h1 class="weather-app-city" id="weather-app-city">Paris</h1>
             <p class="weather-app-details">
               Tuesday <strong>19:13</strong>, clear sky
               <br />
@@ -60,5 +62,6 @@
         </small>
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
