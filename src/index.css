@@ -34,8 +34,8 @@ h1 {
 .search-form-button {
   margin: 0 0 0 10px;
   border: none;
-  font-size: medium;
-  background-color: #efc50a;
+  font-size: large;
+  background-color: #a92f73;
   color: #faebd7;
   padding: 10px;
   border-radius: 4px;
@@ -49,7 +49,7 @@ main {
   margin-top: 60px;
 }
 .weather-app-city {
-  font-size: 90px;
+  font-size: 120px;
   font-weight: bold;
   color: #a92f73;
   margin: 0;
@@ -89,4 +89,7 @@ p {
 footer {
   margin-top: 50px;
   text-align: center;
+}
+a {
+  color: #a92f73;
 }
