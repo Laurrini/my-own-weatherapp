@@ -20,7 +20,7 @@ h1 {
   padding: 15px 40px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   border-radius: 10px;
 }
 .search-form-input {
@@ -50,7 +50,7 @@ main {
 }
 .weather-app-city {
   font-size: 70px;
-  font-weight: bolder;
+  font-weight: bold;
   color: #a92f73;
   margin: 0;
   line-height: 48px;
