@@ -74,8 +74,8 @@ p {
   margin-top: -60px;
 }
 .weather-icon {
-  font-size: 44px;
-  margin-top: 22px;
+  width: 88px;
+  height: 88px;
 }
 .weather-value {
   margin-left: 10px;
@@ -85,6 +85,7 @@ p {
 .weather-unit {
   margin-top: 16px;
   font-size: 28px;
+  font-weight: bold;
 }
 footer {
   margin-top: 50px;
